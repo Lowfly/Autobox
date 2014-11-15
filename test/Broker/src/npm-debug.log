@@ -1,0 +1,88 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'mosquitto' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 warn package.json Broker-mqtt@0.1.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'mosquitto', null ]
+7 verbose cache add name=undefined spec="mosquitto" args=["mosquitto",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'mosquitto',
+8 verbose parsed url   path: 'mosquitto',
+8 verbose parsed url   href: 'mosquitto' }
+9 silly lockFile 0dae0ff8-mosquitto mosquitto
+10 verbose lock mosquitto /home/antoine/.npm/0dae0ff8-mosquitto.lock
+11 silly lockFile 0dae0ff8-mosquitto mosquitto
+12 silly lockFile 0dae0ff8-mosquitto mosquitto
+13 verbose addNamed [ 'mosquitto', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile e200f71f-mosquitto mosquitto@
+16 verbose lock mosquitto@ /home/antoine/.npm/e200f71f-mosquitto.lock
+17 silly addNameRange { name: 'mosquitto', range: '*', hasData: false }
+18 verbose request where is /mosquitto
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id 3975b6f9efbd66e8
+21 verbose url raw /mosquitto
+22 verbose url resolving [ 'https://registry.npmjs.org/', './mosquitto' ]
+23 verbose url resolved https://registry.npmjs.org/mosquitto
+24 verbose request where is https://registry.npmjs.org/mosquitto
+25 info trying registry request attempt 1 at 10:13:05
+26 http GET https://registry.npmjs.org/mosquitto
+27 http 404 https://registry.npmjs.org/mosquitto
+28 verbose headers { date: 'Thu, 23 Oct 2014 08:13:06 GMT',
+28 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 verbose headers   'content-type': 'application/json',
+28 verbose headers   'cache-control': 'max-age=0',
+28 verbose headers   'content-length': '52',
+28 verbose headers   'accept-ranges': 'bytes',
+28 verbose headers   via: '1.1 varnish',
+28 verbose headers   age: '0',
+28 verbose headers   'x-served-by': 'cache-fra1224-FRA',
+28 verbose headers   'x-cache': 'MISS',
+28 verbose headers   'x-cache-hits': '0',
+28 verbose headers   'x-timer': 'S1414051985.776760,VS0,VE713',
+28 verbose headers   'keep-alive': 'timeout=10, max=50',
+28 verbose headers   connection: 'Keep-Alive' }
+29 silly registry.get cb [ 404,
+29 silly registry.get   { date: 'Thu, 23 Oct 2014 08:13:06 GMT',
+29 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=0',
+29 silly registry.get     'content-length': '52',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '0',
+29 silly registry.get     'x-served-by': 'cache-fra1224-FRA',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1414051985.776760,VS0,VE713',
+29 silly registry.get     'keep-alive': 'timeout=10, max=50',
+29 silly registry.get     connection: 'Keep-Alive' } ]
+30 silly lockFile e200f71f-mosquitto mosquitto@
+31 silly lockFile e200f71f-mosquitto mosquitto@
+32 error 404 404 Not Found: mosquitto
+32 error 404
+32 error 404 'mosquitto' is not in the npm registry.
+32 error 404 You should bug the author to publish it
+32 error 404 It was specified as a dependency of 'Broker-mqtt'
+32 error 404
+32 error 404 Note that you can also install from a
+32 error 404 tarball, folder, or http url, or git url.
+33 error System Linux 3.13.0-37-generic
+34 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "mosquitto"
+35 error cwd /home/antoine/Dev/Broker/src
+36 error node -v v0.10.31
+37 error npm -v 1.4.23
+38 error code E404
+39 verbose exit [ 1, true ]

@@ -1,0 +1,23 @@
+{
+  "name": "Broker-mqtt",
+  "version": "0.1.0",
+  "description": "...",
+  "author": "PENNTIC",
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  },
+  "dependencies": {
+
+    "log4js": "*",
+    "optimist": "*",
+
+    "mqtt": "*",
+
+	"express": "~4.0.0",
+	"body-parser": "*"
+
+  },
+  "devDependencies": {
+  }
+}
